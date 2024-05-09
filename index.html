@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" /><meta
+  name="description" content="BMI calculator adalah aplikasi sederhana yang
+  memungkinkan pengguna untuk menghitung Indeks Massa Tubuh (BMI) mereka dengan
+  mudah. BMI adalah pengukuran standar yang digunakan untuk menentukan apakah
+  seseorang berada dalam berat badan yang sehat berdasarkan tinggi dan berat
+  badan mereka. Aplikasi ini memberikan informasi yang berguna tentang status
+  berat badan pengguna dan kategori BMI, seperti underweight, normal weight,
+  overweight, atau obese. Dibangun dengan menggunakan HTML, CSS, dan JavaScript,
+  BMI calculator memiliki antarmuka yang intuitif dan sederhana, sehingga cocok
+  digunakan oleh siapa pun yang ingin memantau dan mengelola kesehatan
+  mereka."/>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="input-wrapper">
+     <label for="weight">Berat (kg):</label>
+  <br/>
+     <input type="number" id="weight" placeholder="Enter weight">
+        </div>
+     <div class="input-wrapper">
+   <label for="height">Tinggi (cm):</label>
+ <br/>
+  <input type="number" id="height" placeholder="Enter height">
+        </div>
+       
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <div id="result"></div>
+    </div>
+   
+   <footer>
+    <p>Copyright 2024.by gun.
+   <a href="">Open source</a></p>
+   </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
