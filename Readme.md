@@ -32,4 +32,4 @@ berat badan kurang, berat badan normal, kelebihan berat badan, atau obesitas.
 
 ## Demo
 
-You can try the BMI Calculator live [https://guns-joy.github.io/calculator-bmi/].
+You can try the BMI Calculator live https://guns-joy.github.io/calculator-bmi/
